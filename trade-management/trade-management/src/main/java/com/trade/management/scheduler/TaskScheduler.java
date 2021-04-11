@@ -20,7 +20,7 @@ public class TradeTaskScheduler {
 	TradeService tradeService;
 
 	@Scheduled(cron = "${trade.expiry.schedule}")
-	public void reportCurrentTime() {
+	public void scheduleTradeTask() {
 		log.info("Time now", LocalDate.now());
 		tradeService.updateExpiryFlag();
 	}
