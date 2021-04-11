@@ -11,9 +11,10 @@ import org.springframework.scheduling.annotation.Scheduled;
 
 import com.trade.management.service.TradeService;
 
-public class TaskScheduler {
+@Component
+public class TradeTaskScheduler {
 	
-	private static final Logger log = LoggerFactory.getLogger(TaskScheduler.class);
+	private static final Logger log = LoggerFactory.getLogger(TradeTaskScheduler.class);
 
 	@Autowired
 	TradeService tradeService;
