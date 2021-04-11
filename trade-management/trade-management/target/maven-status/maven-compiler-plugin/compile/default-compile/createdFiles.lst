@@ -1,0 +1,7 @@
+com\trade\management\TradeManagementApplication.class
+com\trade\management\exception\DuplicateTradeException.class
+com\trade\management\exception\ResourceNotFoundException.class
+com\trade\management\repository\TradeRepository.class
+com\trade\management\controller\TradeController.class
+com\trade\management\exception\TradeVersionException.class
+com\trade\management\model\Trade.class
